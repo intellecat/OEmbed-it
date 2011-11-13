@@ -1,0 +1,21 @@
+<?php
+$url = 'http://v.youku.com/v_show/id_XMzA3OTcxNjE2.html';
+$options = array('format'=>'xml');
+ServiceProvider::serve($url,$options);
+?>
+
+output:
+{ "author_name" : "泡芙小姐",
+  "author_url" : "http://u.youku.com/%E6%B3%A1%E8%8A%99%E5%B0%8F%E5%A7%90",
+  "height" : 400,
+  "html" : "<embed src=\"http://player.youku.com/player.php/sid/XMzA3OTcxNjE2/v.swf\" allowFullScreen=\"true\" quality=\"high\" width=\"480\" height=\"400\" align=\"middle\" allowScriptAccess=\"always\" type=\"application/x-shockwave-flash\"></embed>",
+  "provider_name" : "优酷",
+  "provider_url" : "http://www.youku.com/",
+  "thumbnail_height" : 336,
+  "thumbnail_url" : "http://g2.ykimg.com/1100641F464E964935E110053E02610D9C50ED-B2C9-60B3-D040-81CE2E1B6178",
+  "thumbnail_width" : 448,
+  "title" : "泡芙小姐的金鱼",
+  "type" : "video",
+  "version" : "1.0",
+  "width" : 480
+}
